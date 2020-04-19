@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    font-size: 16px;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.profileTutor {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color:#888888;
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.photoTutor{
+    width:300px;
+    height:auto;
+    padding-top:10px;
+    text-align: left;
+    border: 1px none #000000;
+    border-radius: 200px;
+}
+
+.nameTutor{
+    color: rgb(247, 198, 37);
+}
+
+.bio{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.column {
+    width: 100%;
+    float: left;
+    padding: 50px 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

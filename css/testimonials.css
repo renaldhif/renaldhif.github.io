@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+}
+
+body{
+    font-size: 18px;
+}
+
+.container{
+    min-height: 100%;
+    position: relative;
+}
+
+.boxReview {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+
+.boxReview::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.boxReview img {
+    float: left;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.boxReview span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.imgAvatar {
+    width: 90px;
+}
+
+@media (max-width: 500px) {
+    .boxReview {
+        text-align: justify;
+    }
+
+    .boxReview img {
+        margin: auto;
+        float: none;
+        display: block;
+        width: 90px;
+    }
+    
+    
+}
