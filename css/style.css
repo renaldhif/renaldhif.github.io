@@ -31,12 +31,13 @@ body {
     display: none;
 }
 
-.desc, .headAboutUs {
+.headAboutUs {
     text-align: center;
 }
 
 .desc {
     font-size: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
